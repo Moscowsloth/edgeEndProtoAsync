@@ -1,0 +1,12 @@
+communication 0 :
+Edge 0 :
+train_loss [2.296664811044784]
+test_acc [0.11358629130966952]
+std_accs [0.155250626750005]
+
+communication 0 :
+Edge 1 :
+train_loss [2.296879504646003]
+test_acc [0.13404507710557534]
+std_accs [0.1649416471469792]
+

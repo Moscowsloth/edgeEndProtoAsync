@@ -1,0 +1,2400 @@
+communication 0 :
+Edge 0 :
+train_loss [4.6076138287133706]
+test_acc [0.0055]
+std_accs [0.004662712363778523]
+
+communication 0 :
+Edge 1 :
+train_loss [4.61932635863622]
+test_acc [0.009471585244267198]
+std_accs [0.009816561786213023]
+
+communication 0 :
+Edge 2 :
+train_loss [4.604526293494485]
+test_acc [0.023848238482384824]
+std_accs [0.019915057658351214]
+
+communication 0 :
+Edge 3 :
+train_loss [4.601975438622313]
+test_acc [0.004431314623338257]
+std_accs [0.005402673967364996]
+
+communication 1 :
+Edge 0 :
+train_loss [3.366929444236372]
+test_acc [0.1675]
+std_accs [0.03201943541418362]
+
+communication 1 :
+Edge 1 :
+train_loss [3.5852504724264147]
+test_acc [0.13559322033898305]
+std_accs [0.0658029577943446]
+
+communication 1 :
+Edge 2 :
+train_loss [4.019567568302154]
+test_acc [0.17615176151761516]
+std_accs [0.03876990604545665]
+
+communication 1 :
+Edge 3 :
+train_loss [3.9484144849871488]
+test_acc [0.17872968980797638]
+std_accs [0.08034805914949225]
+
+communication 2 :
+Edge 0 :
+train_loss [5.001126735454029]
+test_acc [0.1175]
+std_accs [0.03292170864660086]
+
+communication 2 :
+Edge 1 :
+train_loss [4.211523201266925]
+test_acc [0.1321036889332004]
+std_accs [0.046404681375766935]
+
+communication 2 :
+Edge 2 :
+train_loss [4.144169174107638]
+test_acc [0.1907859078590786]
+std_accs [0.03609455833841111]
+
+communication 2 :
+Edge 3 :
+train_loss [4.085071178598105]
+test_acc [0.18069916297390448]
+std_accs [0.05470431707507381]
+
+communication 3 :
+Edge 0 :
+train_loss [7.477925381668449]
+test_acc [0.1025]
+std_accs [0.02481292733449794]
+
+communication 3 :
+Edge 1 :
+train_loss [5.829880667924881]
+test_acc [0.16101694915254236]
+std_accs [0.05884588872629004]
+
+communication 3 :
+Edge 2 :
+train_loss [4.752751274108887]
+test_acc [0.16585365853658537]
+std_accs [0.0588591235559905]
+
+communication 3 :
+Edge 3 :
+train_loss [4.661696988628959]
+test_acc [0.16149679960610536]
+std_accs [0.076651462061409]
+
+communication 4 :
+Edge 0 :
+train_loss [6.16763292105753]
+test_acc [0.1555]
+std_accs [0.05746924584189772]
+
+communication 4 :
+Edge 1 :
+train_loss [6.558543060421943]
+test_acc [0.16101694915254236]
+std_accs [0.035529857772945685]
+
+communication 4 :
+Edge 2 :
+train_loss [6.240816283659502]
+test_acc [0.16043360433604337]
+std_accs [0.037754463493137595]
+
+communication 4 :
+Edge 3 :
+train_loss [6.136571800689132]
+test_acc [0.16297390448055146]
+std_accs [0.08514259769875857]
+
+communication 5 :
+Edge 0 :
+train_loss [8.424123856290501]
+test_acc [0.163]
+std_accs [0.05548546778159878]
+
+communication 5 :
+Edge 1 :
+train_loss [7.032110871871312]
+test_acc [0.1510468594217348]
+std_accs [0.05100595758211872]
+
+communication 5 :
+Edge 2 :
+train_loss [6.621118184436451]
+test_acc [0.16260162601626016]
+std_accs [0.02483310027542711]
+
+communication 5 :
+Edge 3 :
+train_loss [5.765502463848233]
+test_acc [0.16001969473165928]
+std_accs [0.058562638191575915]
+
+communication 6 :
+Edge 0 :
+train_loss [10.147338185877457]
+test_acc [0.1245]
+std_accs [0.034167028189537325]
+
+communication 6 :
+Edge 1 :
+train_loss [8.466147725184758]
+test_acc [0.13858424725822532]
+std_accs [0.04787181619878132]
+
+communication 6 :
+Edge 2 :
+train_loss [9.111326480995524]
+test_acc [0.17073170731707318]
+std_accs [0.03221488410841925]
+
+communication 6 :
+Edge 3 :
+train_loss [8.982142034826012]
+test_acc [0.11767602166420482]
+std_accs [0.04979624168603197]
+
+communication 7 :
+Edge 0 :
+train_loss [10.660163444190768]
+test_acc [0.1395]
+std_accs [0.03665908501554492]
+
+communication 7 :
+Edge 1 :
+train_loss [9.422184987862904]
+test_acc [0.12811565304087738]
+std_accs [0.03850193057261925]
+
+communication 7 :
+Edge 2 :
+train_loss [7.141852158633146]
+test_acc [0.15230352303523034]
+std_accs [0.030521005605303245]
+
+communication 7 :
+Edge 3 :
+train_loss [9.912158441700692]
+test_acc [0.1344165435745938]
+std_accs [0.03707739826363067]
+
+communication 8 :
+Edge 0 :
+train_loss [14.041954626390083]
+test_acc [0.1095]
+std_accs [0.060428669865032626]
+
+communication 8 :
+Edge 1 :
+train_loss [14.300385468403498]
+test_acc [0.12662013958125623]
+std_accs [0.05768996828831294]
+
+communication 8 :
+Edge 2 :
+train_loss [12.147551767175848]
+test_acc [0.15392953929539296]
+std_accs [0.016315000655074872]
+
+communication 8 :
+Edge 3 :
+train_loss [14.025755198429994]
+test_acc [0.13392417528311176]
+std_accs [0.0726108972072507]
+
+communication 9 :
+Edge 0 :
+train_loss [18.676478001739913]
+test_acc [0.1265]
+std_accs [0.037117431118251096]
+
+communication 9 :
+Edge 1 :
+train_loss [12.946781494617461]
+test_acc [0.10269192422731804]
+std_accs [0.0422965253066537]
+
+communication 9 :
+Edge 2 :
+train_loss [14.289651621038264]
+test_acc [0.11219512195121951]
+std_accs [0.03659629710371359]
+
+communication 9 :
+Edge 3 :
+train_loss [14.5231472522855]
+test_acc [0.10093549975381585]
+std_accs [0.06742296184051035]
+
+communication 10 :
+Edge 0 :
+train_loss [20.6803017716911]
+test_acc [0.0785]
+std_accs [0.04304354062720276]
+
+communication 10 :
+Edge 1 :
+train_loss [13.771225524743398]
+test_acc [0.09621136590229312]
+std_accs [0.03187504273772727]
+
+communication 10 :
+Edge 2 :
+train_loss [16.200706770636817]
+test_acc [0.12466124661246612]
+std_accs [0.044574331282445735]
+
+communication 10 :
+Edge 3 :
+train_loss [17.54866827535865]
+test_acc [0.11521418020679468]
+std_accs [0.062271730368301005]
+
+communication 11 :
+Edge 0 :
+train_loss [23.073484755840333]
+test_acc [0.06]
+std_accs [0.03317868589937569]
+
+communication 11 :
+Edge 1 :
+train_loss [17.06972498178482]
+test_acc [0.07028913260219342]
+std_accs [0.019385999977954274]
+
+communication 11 :
+Edge 2 :
+train_loss [15.395224498401989]
+test_acc [0.1002710027100271]
+std_accs [0.031239650263424745]
+
+communication 11 :
+Edge 3 :
+train_loss [21.96302369477525]
+test_acc [0.07828655834564253]
+std_accs [0.053040585898909635]
+
+communication 12 :
+Edge 0 :
+train_loss [23.545759412711188]
+test_acc [0.057]
+std_accs [0.024989910760906373]
+
+communication 12 :
+Edge 1 :
+train_loss [18.43212854941686]
+test_acc [0.08275174476570289]
+std_accs [0.019902965032047512]
+
+communication 12 :
+Edge 2 :
+train_loss [19.29055030866103]
+test_acc [0.09268292682926829]
+std_accs [0.041786806203091796]
+
+communication 12 :
+Edge 3 :
+train_loss [22.935004979813904]
+test_acc [0.07828655834564253]
+std_accs [0.04384720134748817]
+
+communication 13 :
+Edge 0 :
+train_loss [26.429031745872305]
+test_acc [0.0495]
+std_accs [0.02304875308592193]
+
+communication 13 :
+Edge 1 :
+train_loss [22.528682885964713]
+test_acc [0.08125623130608176]
+std_accs [0.030168239326274757]
+
+communication 13 :
+Edge 2 :
+train_loss [24.299417982101442]
+test_acc [0.08672086720867209]
+std_accs [0.04726350177292992]
+
+communication 13 :
+Edge 3 :
+train_loss [22.510904847102662]
+test_acc [0.0792712949286066]
+std_accs [0.028339096543404302]
+
+communication 14 :
+Edge 0 :
+train_loss [27.74032758268679]
+test_acc [0.0565]
+std_accs [0.02742733134922128]
+
+communication 14 :
+Edge 1 :
+train_loss [23.56662399848302]
+test_acc [0.08025922233300099]
+std_accs [0.0158317763463943]
+
+communication 14 :
+Edge 2 :
+train_loss [26.035012552954935]
+test_acc [0.08455284552845528]
+std_accs [0.049279105377315745]
+
+communication 14 :
+Edge 3 :
+train_loss [22.33191860880844]
+test_acc [0.07680945347119646]
+std_accs [0.03129414829669501]
+
+communication 15 :
+Edge 0 :
+train_loss [30.904965293667026]
+test_acc [0.046]
+std_accs [0.023705736783919233]
+
+communication 15 :
+Edge 1 :
+train_loss [22.570734429359437]
+test_acc [0.049850448654037885]
+std_accs [0.018284431818652608]
+
+communication 15 :
+Edge 2 :
+train_loss [29.695217071879995]
+test_acc [0.07913279132791327]
+std_accs [0.052247214935708754]
+
+communication 15 :
+Edge 3 :
+train_loss [23.058750826601536]
+test_acc [0.06942392909896603]
+std_accs [0.03417661911139387]
+
+communication 16 :
+Edge 0 :
+train_loss [34.16478598577093]
+test_acc [0.0365]
+std_accs [0.020181044879409075]
+
+communication 16 :
+Edge 1 :
+train_loss [27.851742502848307]
+test_acc [0.049850448654037885]
+std_accs [0.011722909024597088]
+
+communication 16 :
+Edge 2 :
+train_loss [31.824301386746495]
+test_acc [0.05094850948509485]
+std_accs [0.023976472806793988]
+
+communication 16 :
+Edge 3 :
+train_loss [24.811643136195727]
+test_acc [0.07336287543082226]
+std_accs [0.021255291129549946]
+
+communication 17 :
+Edge 0 :
+train_loss [34.176086558369136]
+test_acc [0.0385]
+std_accs [0.026189033239250523]
+
+communication 17 :
+Edge 1 :
+train_loss [26.976656418641408]
+test_acc [0.06729810568295115]
+std_accs [0.03675565469603614]
+
+communication 17 :
+Edge 2 :
+train_loss [35.02335554556413]
+test_acc [0.04769647696476965]
+std_accs [0.019612863665023607]
+
+communication 17 :
+Edge 3 :
+train_loss [24.04055778120063]
+test_acc [0.0723781388478582]
+std_accs [0.02658883928695928]
+
+communication 18 :
+Edge 0 :
+train_loss [39.39900776848721]
+test_acc [0.0395]
+std_accs [0.022149297040448723]
+
+communication 18 :
+Edge 1 :
+train_loss [27.97362299442291]
+test_acc [0.04835493519441675]
+std_accs [0.011901244476166665]
+
+communication 18 :
+Edge 2 :
+train_loss [38.68950594988736]
+test_acc [0.05907859078590786]
+std_accs [0.03312430332914786]
+
+communication 18 :
+Edge 3 :
+train_loss [31.39355021999931]
+test_acc [0.06597735105859183]
+std_accs [0.03348071833368029]
+
+communication 19 :
+Edge 0 :
+train_loss [44.103013203172026]
+test_acc [0.034]
+std_accs [0.02076017781957198]
+
+communication 19 :
+Edge 1 :
+train_loss [30.64598785082499]
+test_acc [0.05333998005982054]
+std_accs [0.014777869443035817]
+
+communication 19 :
+Edge 2 :
+train_loss [42.3858607933738]
+test_acc [0.05582655826558266]
+std_accs [0.0277916391137879]
+
+communication 19 :
+Edge 3 :
+train_loss [27.498977440389417]
+test_acc [0.07336287543082226]
+std_accs [0.038398183521903675]
+
+communication 20 :
+Edge 0 :
+train_loss [44.91304995506453]
+test_acc [0.036]
+std_accs [0.01885182851700444]
+
+communication 20 :
+Edge 1 :
+train_loss [32.96884010950724]
+test_acc [0.0448654037886341]
+std_accs [0.01425950477045634]
+
+communication 20 :
+Edge 2 :
+train_loss [43.6353098782626]
+test_acc [0.04552845528455285]
+std_accs [0.02290574724797517]
+
+communication 20 :
+Edge 3 :
+train_loss [29.546969575583443]
+test_acc [0.07730182176267848]
+std_accs [0.03589445363584962]
+
+communication 21 :
+Edge 0 :
+train_loss [44.95311708146803]
+test_acc [0.0325]
+std_accs [0.021448438715897262]
+
+communication 21 :
+Edge 1 :
+train_loss [34.874034991264345]
+test_acc [0.0423728813559322]
+std_accs [0.015496331698854124]
+
+communication 21 :
+Edge 2 :
+train_loss [38.84801611813632]
+test_acc [0.05040650406504065]
+std_accs [0.02133904527856075]
+
+communication 21 :
+Edge 3 :
+train_loss [33.012508291781835]
+test_acc [0.07434761201378631]
+std_accs [0.03869884791213046]
+
+communication 22 :
+Edge 0 :
+train_loss [47.611215187277224]
+test_acc [0.0375]
+std_accs [0.020080960772454245]
+
+communication 22 :
+Edge 1 :
+train_loss [38.13821048816045]
+test_acc [0.05084745762711865]
+std_accs [0.011783156912560575]
+
+communication 22 :
+Edge 2 :
+train_loss [48.94971521030773]
+test_acc [0.04878048780487805]
+std_accs [0.020490053981973625]
+
+communication 22 :
+Edge 3 :
+train_loss [30.176660727040574]
+test_acc [0.07730182176267848]
+std_accs [0.03796267864166232]
+
+communication 23 :
+Edge 0 :
+train_loss [48.465915686321416]
+test_acc [0.036]
+std_accs [0.026812483105342507]
+
+communication 23 :
+Edge 1 :
+train_loss [37.231169853210446]
+test_acc [0.03988035892323031]
+std_accs [0.012206320172838651]
+
+communication 23 :
+Edge 2 :
+train_loss [53.87709670673717]
+test_acc [0.04227642276422764]
+std_accs [0.02027247983101406]
+
+communication 23 :
+Edge 3 :
+train_loss [31.61856620590612]
+test_acc [0.07877892663712457]
+std_accs [0.037506054519609665]
+
+communication 24 :
+Edge 0 :
+train_loss [51.46185488197672]
+test_acc [0.0365]
+std_accs [0.023375469135230347]
+
+communication 24 :
+Edge 1 :
+train_loss [40.50297621091207]
+test_acc [0.03988035892323031]
+std_accs [0.012307727077714293]
+
+communication 24 :
+Edge 2 :
+train_loss [53.78518300316551]
+test_acc [0.053116531165311655]
+std_accs [0.02782974297090474]
+
+communication 24 :
+Edge 3 :
+train_loss [30.41916441642472]
+test_acc [0.07336287543082226]
+std_accs [0.03546537573996107]
+
+communication 25 :
+Edge 0 :
+train_loss [55.731087657474795]
+test_acc [0.0365]
+std_accs [0.0262910260100594]
+
+communication 25 :
+Edge 1 :
+train_loss [41.752710072199505]
+test_acc [0.034396809571286144]
+std_accs [0.018392158839429146]
+
+communication 25 :
+Edge 2 :
+train_loss [52.95911949157715]
+test_acc [0.041192411924119245]
+std_accs [0.020733387119635887]
+
+communication 25 :
+Edge 3 :
+train_loss [36.108364485437434]
+test_acc [0.07090103397341212]
+std_accs [0.03675806894080195]
+
+communication 26 :
+Edge 0 :
+train_loss [53.68068253534723]
+test_acc [0.039]
+std_accs [0.02827717969794885]
+
+communication 26 :
+Edge 1 :
+train_loss [40.07167162418366]
+test_acc [0.0423728813559322]
+std_accs [0.015622119915001289]
+
+communication 26 :
+Edge 2 :
+train_loss [57.327653721896084]
+test_acc [0.041192411924119245]
+std_accs [0.015796875918582212]
+
+communication 26 :
+Edge 3 :
+train_loss [34.848585812224584]
+test_acc [0.06745445593303791]
+std_accs [0.03546340328371282]
+
+communication 27 :
+Edge 0 :
+train_loss [54.40504974576097]
+test_acc [0.037]
+std_accs [0.024297890685002044]
+
+communication 27 :
+Edge 1 :
+train_loss [38.998081299463905]
+test_acc [0.045862412761714856]
+std_accs [0.018034430043592082]
+
+communication 27 :
+Edge 2 :
+train_loss [52.87272699095986]
+test_acc [0.041192411924119245]
+std_accs [0.01841858823902742]
+
+communication 27 :
+Edge 3 :
+train_loss [36.8530867575028]
+test_acc [0.06745445593303791]
+std_accs [0.03429229042800982]
+
+communication 28 :
+Edge 0 :
+train_loss [56.59432969181182]
+test_acc [0.039]
+std_accs [0.028652425051324582]
+
+communication 28 :
+Edge 1 :
+train_loss [44.688667929967245]
+test_acc [0.036390827517447655]
+std_accs [0.013229464767701671]
+
+communication 28 :
+Edge 2 :
+train_loss [56.869275165904654]
+test_acc [0.03956639566395664]
+std_accs [0.018271646988864503]
+
+communication 28 :
+Edge 3 :
+train_loss [40.304392926186274]
+test_acc [0.05809945839487937]
+std_accs [0.03650720888863775]
+
+communication 29 :
+Edge 0 :
+train_loss [55.27641438319655]
+test_acc [0.04]
+std_accs [0.026451972198226033]
+
+communication 29 :
+Edge 1 :
+train_loss [42.92785819848378]
+test_acc [0.04735792622133599]
+std_accs [0.012315951684829863]
+
+communication 29 :
+Edge 2 :
+train_loss [64.57972523429177]
+test_acc [0.03685636856368564]
+std_accs [0.016663350149153384]
+
+communication 29 :
+Edge 3 :
+train_loss [41.901161308539955]
+test_acc [0.06302314130969966]
+std_accs [0.03971540413631944]
+
+communication 30 :
+Edge 0 :
+train_loss [57.286195723056]
+test_acc [0.0375]
+std_accs [0.026156222905379986]
+
+communication 30 :
+Edge 1 :
+train_loss [46.21605634689331]
+test_acc [0.038883349950149554]
+std_accs [0.012959829196073601]
+
+communication 30 :
+Edge 2 :
+train_loss [62.45852369481867]
+test_acc [0.037940379403794036]
+std_accs [0.017102062524508604]
+
+communication 30 :
+Edge 3 :
+train_loss [38.76755400112473]
+test_acc [0.060561299852289516]
+std_accs [0.033644925957357574]
+
+communication 31 :
+Edge 0 :
+train_loss [63.0770831818956]
+test_acc [0.0345]
+std_accs [0.026479686103244172]
+
+communication 31 :
+Edge 1 :
+train_loss [50.15632066408793]
+test_acc [0.04735792622133599]
+std_accs [0.01702022877285428]
+
+communication 31 :
+Edge 2 :
+train_loss [62.5163363161954]
+test_acc [0.03360433604336043]
+std_accs [0.015518825179080532]
+
+communication 31 :
+Edge 3 :
+train_loss [41.783280784255]
+test_acc [0.060561299852289516]
+std_accs [0.03762492251358881]
+
+communication 32 :
+Edge 0 :
+train_loss [63.83899216196645]
+test_acc [0.036]
+std_accs [0.02429650768323705]
+
+communication 32 :
+Edge 1 :
+train_loss [49.26456364949544]
+test_acc [0.040877367896311065]
+std_accs [0.009538870776662163]
+
+communication 32 :
+Edge 2 :
+train_loss [67.80560242219404]
+test_acc [0.03739837398373984]
+std_accs [0.015125018323374118]
+
+communication 32 :
+Edge 3 :
+train_loss [41.112374224026475]
+test_acc [0.06597735105859183]
+std_accs [0.038796025919443596]
+
+communication 33 :
+Edge 0 :
+train_loss [69.44283686051617]
+test_acc [0.0315]
+std_accs [0.024658396102626084]
+
+communication 33 :
+Edge 1 :
+train_loss [49.81849136670431]
+test_acc [0.043369890329012964]
+std_accs [0.008822302875402052]
+
+communication 33 :
+Edge 2 :
+train_loss [67.80924955541437]
+test_acc [0.03685636856368564]
+std_accs [0.015609658631115058]
+
+communication 33 :
+Edge 3 :
+train_loss [39.474751138608575]
+test_acc [0.06302314130969966]
+std_accs [0.0380287240089759]
+
+communication 34 :
+Edge 0 :
+train_loss [66.59825824053843]
+test_acc [0.034]
+std_accs [0.02294089666438423]
+
+communication 34 :
+Edge 1 :
+train_loss [49.274646525383]
+test_acc [0.041375872382851446]
+std_accs [0.009574649932337842]
+
+communication 34 :
+Edge 2 :
+train_loss [68.89987126263705]
+test_acc [0.03577235772357724]
+std_accs [0.013991966016039916]
+
+communication 34 :
+Edge 3 :
+train_loss [41.426650712674686]
+test_acc [0.06154603643525357]
+std_accs [0.04106873208967694]
+
+communication 35 :
+Edge 0 :
+train_loss [72.64895171096776]
+test_acc [0.0315]
+std_accs [0.023473593454068502]
+
+communication 35 :
+Edge 1 :
+train_loss [52.21193487008413]
+test_acc [0.04037886340977069]
+std_accs [0.006816234820888857]
+
+communication 35 :
+Edge 2 :
+train_loss [73.56702261664651]
+test_acc [0.03577235772357724]
+std_accs [0.015540069792408953]
+
+communication 35 :
+Edge 3 :
+train_loss [41.710079026575734]
+test_acc [0.06006893156080748]
+std_accs [0.03623329000031801]
+
+communication 36 :
+Edge 0 :
+train_loss [71.57691036077401]
+test_acc [0.0335]
+std_accs [0.02257036462241747]
+
+communication 36 :
+Edge 1 :
+train_loss [51.580952026049296]
+test_acc [0.03389830508474576]
+std_accs [0.009198657272591953]
+
+communication 36 :
+Edge 2 :
+train_loss [75.83193897073919]
+test_acc [0.037940379403794036]
+std_accs [0.016149842379040668]
+
+communication 36 :
+Edge 3 :
+train_loss [44.19283894769835]
+test_acc [0.06154603643525357]
+std_accs [0.040751999346761596]
+
+communication 37 :
+Edge 0 :
+train_loss [68.0197920567626]
+test_acc [0.031]
+std_accs [0.021594615810683563]
+
+communication 37 :
+Edge 1 :
+train_loss [51.312774155934655]
+test_acc [0.0448654037886341]
+std_accs [0.013214204061625417]
+
+communication 37 :
+Edge 2 :
+train_loss [75.20710116993297]
+test_acc [0.03577235772357724]
+std_accs [0.01262791210480656]
+
+communication 37 :
+Edge 3 :
+train_loss [49.135433869464]
+test_acc [0.06006893156080748]
+std_accs [0.03752364424706352]
+
+communication 38 :
+Edge 0 :
+train_loss [68.74192808461149]
+test_acc [0.032]
+std_accs [0.026134183534171428]
+
+communication 38 :
+Edge 1 :
+train_loss [54.31074146588644]
+test_acc [0.03788634097706879]
+std_accs [0.009720047394692411]
+
+communication 38 :
+Edge 2 :
+train_loss [73.33125956101851]
+test_acc [0.03902439024390244]
+std_accs [0.012674409824770588]
+
+communication 38 :
+Edge 3 :
+train_loss [48.40847466372972]
+test_acc [0.05760709010339734]
+std_accs [0.038884563767839386]
+
+communication 39 :
+Edge 0 :
+train_loss [66.03988080687658]
+test_acc [0.0315]
+std_accs [0.023132270824361312]
+
+communication 39 :
+Edge 1 :
+train_loss [54.17531263669332]
+test_acc [0.03140578265204387]
+std_accs [0.004372499239245637]
+
+communication 39 :
+Edge 2 :
+train_loss [79.36285460905596]
+test_acc [0.03685636856368564]
+std_accs [0.014942372660030559]
+
+communication 39 :
+Edge 3 :
+train_loss [47.03299750920379]
+test_acc [0.06154603643525357]
+std_accs [0.035446727999341794]
+
+communication 40 :
+Edge 0 :
+train_loss [71.48451885945434]
+test_acc [0.031]
+std_accs [0.021914264547443923]
+
+communication 40 :
+Edge 1 :
+train_loss [58.173073822657265]
+test_acc [0.03040877367896311]
+std_accs [0.006956075640106722]
+
+communication 40 :
+Edge 2 :
+train_loss [74.9185314282504]
+test_acc [0.03523035230352303]
+std_accs [0.013934974692676]
+
+communication 40 :
+Edge 3 :
+train_loss [46.59517457732652]
+test_acc [0.06253077301821763]
+std_accs [0.03152400941586841]
+
+communication 41 :
+Edge 0 :
+train_loss [71.75952044923102]
+test_acc [0.034]
+std_accs [0.024374454418462043]
+
+communication 41 :
+Edge 1 :
+train_loss [57.722170921961464]
+test_acc [0.031904287138584245]
+std_accs [0.010006503037040591]
+
+communication 41 :
+Edge 2 :
+train_loss [82.71065191095525]
+test_acc [0.037940379403794036]
+std_accs [0.014249425219447307]
+
+communication 41 :
+Edge 3 :
+train_loss [43.09654698379743]
+test_acc [0.06154603643525357]
+std_accs [0.034224054973886905]
+
+communication 42 :
+Edge 0 :
+train_loss [71.0045429785647]
+test_acc [0.033]
+std_accs [0.026694711248729925]
+
+communication 42 :
+Edge 1 :
+train_loss [57.102873767217]
+test_acc [0.038883349950149554]
+std_accs [0.007206915101443285]
+
+communication 42 :
+Edge 2 :
+train_loss [85.59025856711648]
+test_acc [0.03577235772357724]
+std_accs [0.013719559542649262]
+
+communication 42 :
+Edge 3 :
+train_loss [46.047916318085875]
+test_acc [0.05809945839487937]
+std_accs [0.029878116136861012]
+
+communication 43 :
+Edge 0 :
+train_loss [67.92663622301826]
+test_acc [0.036]
+std_accs [0.026479385269567775]
+
+communication 43 :
+Edge 1 :
+train_loss [57.77188382148743]
+test_acc [0.03489531405782652]
+std_accs [0.010733764937287045]
+
+communication 43 :
+Edge 2 :
+train_loss [81.13098934520374]
+test_acc [0.03739837398373984]
+std_accs [0.013549200219573409]
+
+communication 43 :
+Edge 3 :
+train_loss [49.75169076715309]
+test_acc [0.0585918266863614]
+std_accs [0.029466843332610203]
+
+communication 44 :
+Edge 0 :
+train_loss [69.5251529692006]
+test_acc [0.032]
+std_accs [0.02533162474019563]
+
+communication 44 :
+Edge 1 :
+train_loss [58.10199585755666]
+test_acc [0.03290129611166501]
+std_accs [0.009618005447245514]
+
+communication 44 :
+Edge 2 :
+train_loss [83.33132026672364]
+test_acc [0.036314363143631435]
+std_accs [0.009516396467516028]
+
+communication 44 :
+Edge 3 :
+train_loss [50.007772528948465]
+test_acc [0.060561299852289516]
+std_accs [0.03073210791162851]
+
+communication 45 :
+Edge 0 :
+train_loss [71.78671381900858]
+test_acc [0.0295]
+std_accs [0.0255899349424528]
+
+communication 45 :
+Edge 1 :
+train_loss [56.24128907839457]
+test_acc [0.02991026919242273]
+std_accs [0.012957482731529088]
+
+communication 45 :
+Edge 2 :
+train_loss [83.68903985110197]
+test_acc [0.03577235772357724]
+std_accs [0.014327691106608021]
+
+communication 45 :
+Edge 3 :
+train_loss [50.51245189695028]
+test_acc [0.0585918266863614]
+std_accs [0.028148570161168018]
+
+communication 46 :
+Edge 0 :
+train_loss [71.47168069388998]
+test_acc [0.0335]
+std_accs [0.024463210382948485]
+
+communication 46 :
+Edge 1 :
+train_loss [61.088166904449466]
+test_acc [0.03290129611166501]
+std_accs [0.01491170298143547]
+
+communication 46 :
+Edge 2 :
+train_loss [82.85745624889027]
+test_acc [0.037940379403794036]
+std_accs [0.014667990094000802]
+
+communication 46 :
+Edge 3 :
+train_loss [48.57003604049934]
+test_acc [0.05662235352043329]
+std_accs [0.02986496208800335]
+
+communication 47 :
+Edge 0 :
+train_loss [74.92859326335453]
+test_acc [0.0295]
+std_accs [0.023227839550890497]
+
+communication 47 :
+Edge 1 :
+train_loss [56.28183176358541]
+test_acc [0.034396809571286144]
+std_accs [0.01128513603757471]
+
+communication 47 :
+Edge 2 :
+train_loss [81.32458460374312]
+test_acc [0.03414634146341464]
+std_accs [0.015628673352254284]
+
+communication 47 :
+Edge 3 :
+train_loss [48.4960851205829]
+test_acc [0.055145248645987195]
+std_accs [0.028669588878782196]
+
+communication 48 :
+Edge 0 :
+train_loss [71.42324756098353]
+test_acc [0.0325]
+std_accs [0.02376814355066067]
+
+communication 48 :
+Edge 1 :
+train_loss [57.3402187983195]
+test_acc [0.03290129611166501]
+std_accs [0.008532186199412062]
+
+communication 48 :
+Edge 2 :
+train_loss [82.32014066522771]
+test_acc [0.037940379403794036]
+std_accs [0.014950525473628044]
+
+communication 48 :
+Edge 3 :
+train_loss [54.42464619924052]
+test_acc [0.055145248645987195]
+std_accs [0.031118505268836045]
+
+communication 49 :
+Edge 0 :
+train_loss [74.30354290551676]
+test_acc [0.03]
+std_accs [0.023034796136640424]
+
+communication 49 :
+Edge 1 :
+train_loss [58.70760736306509]
+test_acc [0.03389830508474576]
+std_accs [0.00916584768620388]
+
+communication 49 :
+Edge 2 :
+train_loss [85.51742213162508]
+test_acc [0.036314363143631435]
+std_accs [0.014408334531302145]
+
+communication 49 :
+Edge 3 :
+train_loss [54.66210133946904]
+test_acc [0.05809945839487937]
+std_accs [0.035132762895571]
+
+communication 50 :
+Edge 0 :
+train_loss [73.2834042799932]
+test_acc [0.0315]
+std_accs [0.024601297438484767]
+
+communication 50 :
+Edge 1 :
+train_loss [61.370434548060096]
+test_acc [0.027417746759720838]
+std_accs [0.011776092441984989]
+
+communication 50 :
+Edge 2 :
+train_loss [86.00192407954823]
+test_acc [0.03523035230352303]
+std_accs [0.01963113540409281]
+
+communication 50 :
+Edge 3 :
+train_loss [54.559792817915486]
+test_acc [0.05465288035450517]
+std_accs [0.032831703622786035]
+
+communication 51 :
+Edge 0 :
+train_loss [75.69030776415238]
+test_acc [0.0325]
+std_accs [0.024107492749594492]
+
+communication 51 :
+Edge 1 :
+train_loss [61.68476016044617]
+test_acc [0.02991026919242273]
+std_accs [0.01360619185001277]
+
+communication 51 :
+Edge 2 :
+train_loss [83.21351558338512]
+test_acc [0.03577235772357724]
+std_accs [0.01895774143865345]
+
+communication 51 :
+Edge 3 :
+train_loss [56.36646681051867]
+test_acc [0.056129985228951254]
+std_accs [0.036171395787544414]
+
+communication 52 :
+Edge 0 :
+train_loss [73.44641730853262]
+test_acc [0.0325]
+std_accs [0.024526890433765634]
+
+communication 52 :
+Edge 1 :
+train_loss [59.537787981033325]
+test_acc [0.034396809571286144]
+std_accs [0.012839135080128046]
+
+communication 52 :
+Edge 2 :
+train_loss [86.76845586950128]
+test_acc [0.036314363143631435]
+std_accs [0.01969151864133733]
+
+communication 52 :
+Edge 3 :
+train_loss [54.83353967603781]
+test_acc [0.05563761693746923]
+std_accs [0.03335415432013141]
+
+communication 53 :
+Edge 0 :
+train_loss [78.39587352503484]
+test_acc [0.033]
+std_accs [0.023798526659074976]
+
+communication 53 :
+Edge 1 :
+train_loss [61.03386236826579]
+test_acc [0.03140578265204387]
+std_accs [0.00998817649501173]
+
+communication 53 :
+Edge 2 :
+train_loss [86.2877329600941]
+test_acc [0.036314363143631435]
+std_accs [0.01865932561349167]
+
+communication 53 :
+Edge 3 :
+train_loss [57.794316294165775]
+test_acc [0.05760709010339734]
+std_accs [0.03206116632768477]
+
+communication 54 :
+Edge 0 :
+train_loss [81.73717545105185]
+test_acc [0.0325]
+std_accs [0.02223139583880616]
+
+communication 54 :
+Edge 1 :
+train_loss [63.021166976292925]
+test_acc [0.03140578265204387]
+std_accs [0.009680702312253073]
+
+communication 54 :
+Edge 2 :
+train_loss [86.24621822010387]
+test_acc [0.03414634146341464]
+std_accs [0.016906171749066255]
+
+communication 54 :
+Edge 3 :
+train_loss [57.92368055293352]
+test_acc [0.05809945839487937]
+std_accs [0.032542814074609794]
+
+communication 55 :
+Edge 0 :
+train_loss [78.83636888347479]
+test_acc [0.0315]
+std_accs [0.02347719934877877]
+
+communication 55 :
+Edge 1 :
+train_loss [65.60315634886423]
+test_acc [0.03040877367896311]
+std_accs [0.007527008074308968]
+
+communication 55 :
+Edge 2 :
+train_loss [78.43781091169878]
+test_acc [0.03685636856368564]
+std_accs [0.017247762978537005]
+
+communication 55 :
+Edge 3 :
+train_loss [52.71042326294021]
+test_acc [0.059084194977843424]
+std_accs [0.03534826049842537]
+
+communication 56 :
+Edge 0 :
+train_loss [76.07862767582164]
+test_acc [0.033]
+std_accs [0.0238037714511085]
+
+communication 56 :
+Edge 1 :
+train_loss [63.295198329289754]
+test_acc [0.028913260219341975]
+std_accs [0.009283305701494509]
+
+communication 56 :
+Edge 2 :
+train_loss [76.94763592459938]
+test_acc [0.04010840108401084]
+std_accs [0.020710050582934215]
+
+communication 56 :
+Edge 3 :
+train_loss [56.10907653057595]
+test_acc [0.06253077301821763]
+std_accs [0.03526343147179417]
+
+communication 57 :
+Edge 0 :
+train_loss [78.48132879809918]
+test_acc [0.0335]
+std_accs [0.022917782156429627]
+
+communication 57 :
+Edge 1 :
+train_loss [61.65647655169169]
+test_acc [0.0259222333000997]
+std_accs [0.010109917368286]
+
+communication 57 :
+Edge 2 :
+train_loss [77.63488182761452]
+test_acc [0.03685636856368564]
+std_accs [0.018703524088602614]
+
+communication 57 :
+Edge 3 :
+train_loss [54.80768485202821]
+test_acc [0.06253077301821763]
+std_accs [0.0333109458071922]
+
+communication 58 :
+Edge 0 :
+train_loss [76.8162714656274]
+test_acc [0.034]
+std_accs [0.023607288817615844]
+
+communication 58 :
+Edge 1 :
+train_loss [62.00071381251017]
+test_acc [0.031904287138584245]
+std_accs [0.00943302542112228]
+
+communication 58 :
+Edge 2 :
+train_loss [79.49258165186102]
+test_acc [0.037940379403794036]
+std_accs [0.016645816696471524]
+
+communication 58 :
+Edge 3 :
+train_loss [52.02833527434599]
+test_acc [0.06302314130969966]
+std_accs [0.031107822145723288]
+
+communication 59 :
+Edge 0 :
+train_loss [75.86476783177362]
+test_acc [0.0325]
+std_accs [0.023751781921032812]
+
+communication 59 :
+Edge 1 :
+train_loss [56.37871155103048]
+test_acc [0.02991026919242273]
+std_accs [0.010610395273485623]
+
+communication 59 :
+Edge 2 :
+train_loss [79.33263500213623]
+test_acc [0.03685636856368564]
+std_accs [0.01709816637652759]
+
+communication 59 :
+Edge 3 :
+train_loss [53.37402763241009]
+test_acc [0.06253077301821763]
+std_accs [0.0323736576713284]
+
+communication 60 :
+Edge 0 :
+train_loss [80.12789786321234]
+test_acc [0.0345]
+std_accs [0.023975175772614623]
+
+communication 60 :
+Edge 1 :
+train_loss [60.75745205243429]
+test_acc [0.02991026919242273]
+std_accs [0.01057985243186583]
+
+communication 60 :
+Edge 2 :
+train_loss [78.37094565651634]
+test_acc [0.03577235772357724]
+std_accs [0.017227058999815678]
+
+communication 60 :
+Edge 3 :
+train_loss [50.83221652283896]
+test_acc [0.06400787789266371]
+std_accs [0.030689801786255733]
+
+communication 61 :
+Edge 0 :
+train_loss [81.28638102021849]
+test_acc [0.03]
+std_accs [0.01939753621805202]
+
+communication 61 :
+Edge 1 :
+train_loss [63.79256014188131]
+test_acc [0.024925224327018942]
+std_accs [0.009874473646781606]
+
+communication 61 :
+Edge 2 :
+train_loss [76.62732908075506]
+test_acc [0.03848238482384824]
+std_accs [0.017810645250288255]
+
+communication 61 :
+Edge 3 :
+train_loss [56.36494259465075]
+test_acc [0.06253077301821763]
+std_accs [0.03214667426052929]
+
+communication 62 :
+Edge 0 :
+train_loss [80.76051228649453]
+test_acc [0.035]
+std_accs [0.024750090477752295]
+
+communication 62 :
+Edge 1 :
+train_loss [62.17446512381236]
+test_acc [0.03040877367896311]
+std_accs [0.011569808669260924]
+
+communication 62 :
+Edge 2 :
+train_loss [82.25587435288863]
+test_acc [0.03902439024390244]
+std_accs [0.01658204485599361]
+
+communication 62 :
+Edge 3 :
+train_loss [58.19025385949325]
+test_acc [0.06597735105859183]
+std_accs [0.026640606455468823]
+
+communication 63 :
+Edge 0 :
+train_loss [76.64511396896899]
+test_acc [0.032]
+std_accs [0.023997853075079307]
+
+communication 63 :
+Edge 1 :
+train_loss [63.72527364730835]
+test_acc [0.0259222333000997]
+std_accs [0.01273551191845159]
+
+communication 63 :
+Edge 2 :
+train_loss [80.92271588065408]
+test_acc [0.037940379403794036]
+std_accs [0.019021556772575426]
+
+communication 63 :
+Edge 3 :
+train_loss [57.48627131224857]
+test_acc [0.06499261447562776]
+std_accs [0.030487944015156435]
+
+communication 64 :
+Edge 0 :
+train_loss [73.36561863066963]
+test_acc [0.036]
+std_accs [0.021365160712514316]
+
+communication 64 :
+Edge 1 :
+train_loss [64.1765995979309]
+test_acc [0.027417746759720838]
+std_accs [0.009200862075337051]
+
+communication 64 :
+Edge 2 :
+train_loss [82.06104665236039]
+test_acc [0.03956639566395664]
+std_accs [0.019276692397353176]
+
+communication 64 :
+Edge 3 :
+train_loss [53.568908225566986]
+test_acc [0.06597735105859183]
+std_accs [0.029206553838957126]
+
+communication 65 :
+Edge 0 :
+train_loss [74.62844768760591]
+test_acc [0.034]
+std_accs [0.02294089666438423]
+
+communication 65 :
+Edge 1 :
+train_loss [63.772002291679385]
+test_acc [0.026919242273180457]
+std_accs [0.010475702841548334]
+
+communication 65 :
+Edge 2 :
+train_loss [79.19387320085005]
+test_acc [0.037940379403794036]
+std_accs [0.018459966090858818]
+
+communication 65 :
+Edge 3 :
+train_loss [56.777737363755605]
+test_acc [0.06794682422451995]
+std_accs [0.033055699092346985]
+
+communication 66 :
+Edge 0 :
+train_loss [71.99252339463737]
+test_acc [0.031]
+std_accs [0.023448172365315125]
+
+communication 66 :
+Edge 1 :
+train_loss [63.54667475859324]
+test_acc [0.031904287138584245]
+std_accs [0.010513254147316709]
+
+communication 66 :
+Edge 2 :
+train_loss [79.15290655309504]
+test_acc [0.03902439024390244]
+std_accs [0.023340352325712282]
+
+communication 66 :
+Edge 3 :
+train_loss [56.01569606916123]
+test_acc [0.068931560807484]
+std_accs [0.03388908216108605]
+
+communication 67 :
+Edge 0 :
+train_loss [72.19570878123119]
+test_acc [0.033]
+std_accs [0.022705521285203954]
+
+communication 67 :
+Edge 1 :
+train_loss [71.31981640021006]
+test_acc [0.028414755732801594]
+std_accs [0.011000145321361744]
+
+communication 67 :
+Edge 2 :
+train_loss [77.49736026763917]
+test_acc [0.037940379403794036]
+std_accs [0.016645816696471524]
+
+communication 67 :
+Edge 3 :
+train_loss [59.177222632104915]
+test_acc [0.06499261447562776]
+std_accs [0.030487944015156435]
+
+communication 68 :
+Edge 0 :
+train_loss [75.67338888529358]
+test_acc [0.033]
+std_accs [0.024862346884441302]
+
+communication 68 :
+Edge 1 :
+train_loss [62.538827902475994]
+test_acc [0.027417746759720838]
+std_accs [0.011699566816120586]
+
+communication 68 :
+Edge 2 :
+train_loss [79.35148103193804]
+test_acc [0.041192411924119245]
+std_accs [0.016809953704850576]
+
+communication 68 :
+Edge 3 :
+train_loss [58.23893214764666]
+test_acc [0.06794682422451995]
+std_accs [0.03459728212688166]
+
+communication 69 :
+Edge 0 :
+train_loss [72.22086839819673]
+test_acc [0.0335]
+std_accs [0.02643328790981602]
+
+communication 69 :
+Edge 1 :
+train_loss [62.7708682791392]
+test_acc [0.03090727816550349]
+std_accs [0.012875275452931961]
+
+communication 69 :
+Edge 2 :
+train_loss [79.34461848519065]
+test_acc [0.03956639566395664]
+std_accs [0.018781057838257457]
+
+communication 69 :
+Edge 3 :
+train_loss [52.77176160906646]
+test_acc [0.06843919251600197]
+std_accs [0.033849220454561166]
+
+communication 70 :
+Edge 0 :
+train_loss [75.68655305411947]
+test_acc [0.036]
+std_accs [0.028109197748599855]
+
+communication 70 :
+Edge 1 :
+train_loss [62.50634771029154]
+test_acc [0.03140578265204387]
+std_accs [0.014211168459074264]
+
+communication 70 :
+Edge 2 :
+train_loss [86.30504881425337]
+test_acc [0.03848238482384824]
+std_accs [0.020251327309560693]
+
+communication 70 :
+Edge 3 :
+train_loss [53.670193844611404]
+test_acc [0.07090103397341212]
+std_accs [0.03355337919954704]
+
+communication 71 :
+Edge 0 :
+train_loss [76.68142635339069]
+test_acc [0.0335]
+std_accs [0.025560143635760403]
+
+communication 71 :
+Edge 1 :
+train_loss [65.57331053733826]
+test_acc [0.029411764705882353]
+std_accs [0.013663351552311282]
+
+communication 71 :
+Edge 2 :
+train_loss [86.52163459084251]
+test_acc [0.037940379403794036]
+std_accs [0.019557888605880265]
+
+communication 71 :
+Edge 3 :
+train_loss [53.25468536381666]
+test_acc [0.07040866568193008]
+std_accs [0.031594948081988074]
+
+communication 72 :
+Edge 0 :
+train_loss [73.61891924795793]
+test_acc [0.03]
+std_accs [0.02388752850657219]
+
+communication 72 :
+Edge 1 :
+train_loss [63.85430106321971]
+test_acc [0.028414755732801594]
+std_accs [0.012244762033847145]
+
+communication 72 :
+Edge 2 :
+train_loss [82.2540790869973]
+test_acc [0.041192411924119245]
+std_accs [0.021571863568104872]
+
+communication 72 :
+Edge 3 :
+train_loss [57.53525891924611]
+test_acc [0.06450024618414574]
+std_accs [0.0310264525650881]
+
+communication 73 :
+Edge 0 :
+train_loss [75.62513143453167]
+test_acc [0.0305]
+std_accs [0.02398880760968178]
+
+communication 73 :
+Edge 1 :
+train_loss [61.44841437657674]
+test_acc [0.02991026919242273]
+std_accs [0.014790378391907995]
+
+communication 73 :
+Edge 2 :
+train_loss [86.54720988186924]
+test_acc [0.03848238482384824]
+std_accs [0.016345675570714608]
+
+communication 73 :
+Edge 3 :
+train_loss [63.050957693888684]
+test_acc [0.068931560807484]
+std_accs [0.02957926180350362]
+
+communication 74 :
+Edge 0 :
+train_loss [70.17952751274684]
+test_acc [0.0315]
+std_accs [0.023473593454068502]
+
+communication 74 :
+Edge 1 :
+train_loss [63.78938642024994]
+test_acc [0.036889332003988036]
+std_accs [0.01885241930249953]
+
+communication 74 :
+Edge 2 :
+train_loss [91.64987218336626]
+test_acc [0.041192411924119245]
+std_accs [0.017323670022867856]
+
+communication 74 :
+Edge 3 :
+train_loss [61.16741417620877]
+test_acc [0.07139340226489414]
+std_accs [0.033035184761303245]
+
+communication 75 :
+Edge 0 :
+train_loss [72.12776316829662]
+test_acc [0.0315]
+std_accs [0.027133416529002575]
+
+communication 75 :
+Edge 1 :
+train_loss [57.7838769197464]
+test_acc [0.03290129611166501]
+std_accs [0.01777029635379715]
+
+communication 75 :
+Edge 2 :
+train_loss [87.09664134285667]
+test_acc [0.041192411924119245]
+std_accs [0.017235742913222846]
+
+communication 75 :
+Edge 3 :
+train_loss [57.83802496974511]
+test_acc [0.06942392909896603]
+std_accs [0.029642998647020895]
+
+communication 76 :
+Edge 0 :
+train_loss [69.76456518348937]
+test_acc [0.0305]
+std_accs [0.022359673213796113]
+
+communication 76 :
+Edge 1 :
+train_loss [62.64960573196411]
+test_acc [0.02991026919242273]
+std_accs [0.014465246685389128]
+
+communication 76 :
+Edge 2 :
+train_loss [82.59856813950972]
+test_acc [0.041192411924119245]
+std_accs [0.018717606783373846]
+
+communication 76 :
+Edge 3 :
+train_loss [61.705445513104685]
+test_acc [0.07287050713934022]
+std_accs [0.03421185941916455]
+
+communication 77 :
+Edge 0 :
+train_loss [71.3884267024259]
+test_acc [0.028]
+std_accs [0.021482459754079825]
+
+communication 77 :
+Edge 1 :
+train_loss [64.37352134386698]
+test_acc [0.031904287138584245]
+std_accs [0.01775171111521089]
+
+communication 77 :
+Edge 2 :
+train_loss [81.17033290863037]
+test_acc [0.03902439024390244]
+std_accs [0.019049133744077015]
+
+communication 77 :
+Edge 3 :
+train_loss [56.29029303524011]
+test_acc [0.07090103397341212]
+std_accs [0.030981593514818773]
+
+communication 78 :
+Edge 0 :
+train_loss [68.42549724035726]
+test_acc [0.0295]
+std_accs [0.022491206534110558]
+
+communication 78 :
+Edge 1 :
+train_loss [66.43559204419454]
+test_acc [0.028414755732801594]
+std_accs [0.013098206938014605]
+
+communication 78 :
+Edge 2 :
+train_loss [85.1783783236417]
+test_acc [0.03902439024390244]
+std_accs [0.020041761047064958]
+
+communication 78 :
+Edge 3 :
+train_loss [60.86588147876683]
+test_acc [0.06499261447562776]
+std_accs [0.03154414738099654]
+
+communication 79 :
+Edge 0 :
+train_loss [71.57616868650095]
+test_acc [0.031]
+std_accs [0.022344881686079288]
+
+communication 79 :
+Edge 1 :
+train_loss [63.79533607165019]
+test_acc [0.027417746759720838]
+std_accs [0.01389279369129149]
+
+communication 79 :
+Edge 2 :
+train_loss [80.99507094643333]
+test_acc [0.03902439024390244]
+std_accs [0.02187848557526531]
+
+communication 79 :
+Edge 3 :
+train_loss [59.58973387988435]
+test_acc [0.07287050713934022]
+std_accs [0.03439892378635598]
+
+communication 80 :
+Edge 0 :
+train_loss [70.16367453825933]
+test_acc [0.0305]
+std_accs [0.02666857769248751]
+
+communication 80 :
+Edge 1 :
+train_loss [64.4842611726125]
+test_acc [0.027417746759720838]
+std_accs [0.01276317040739673]
+
+communication 80 :
+Edge 2 :
+train_loss [83.91688885081898]
+test_acc [0.03902439024390244]
+std_accs [0.02060545701885867]
+
+communication 80 :
+Edge 3 :
+train_loss [60.53472041337455]
+test_acc [0.06942392909896603]
+std_accs [0.028569986706332245]
+
+communication 81 :
+Edge 0 :
+train_loss [68.28410996224612]
+test_acc [0.0305]
+std_accs [0.02434069436688156]
+
+communication 81 :
+Edge 1 :
+train_loss [65.93266218980153]
+test_acc [0.03040877367896311]
+std_accs [0.00972947432375191]
+
+communication 81 :
+Edge 2 :
+train_loss [79.99907713456588]
+test_acc [0.037940379403794036]
+std_accs [0.017571090194834736]
+
+communication 81 :
+Edge 3 :
+train_loss [61.59785002735144]
+test_acc [0.06843919251600197]
+std_accs [0.03205718892526195]
+
+communication 82 :
+Edge 0 :
+train_loss [67.33519965320376]
+test_acc [0.027]
+std_accs [0.02375943308199546]
+
+communication 82 :
+Edge 1 :
+train_loss [69.559751385053]
+test_acc [0.0259222333000997]
+std_accs [0.0105487831381788]
+
+communication 82 :
+Edge 2 :
+train_loss [83.09336974057284]
+test_acc [0.03685636856368564]
+std_accs [0.019691502493001556]
+
+communication 82 :
+Edge 3 :
+train_loss [64.99376886130558]
+test_acc [0.06942392909896603]
+std_accs [0.0320173253372306]
+
+communication 83 :
+Edge 0 :
+train_loss [70.0740076221613]
+test_acc [0.0245]
+std_accs [0.023159770296677103]
+
+communication 83 :
+Edge 1 :
+train_loss [67.16436421076456]
+test_acc [0.029411764705882353]
+std_accs [0.009214411702258406]
+
+communication 83 :
+Edge 2 :
+train_loss [78.47711605592208]
+test_acc [0.041192411924119245]
+std_accs [0.02079625353714303]
+
+communication 83 :
+Edge 3 :
+train_loss [64.60555591379006]
+test_acc [0.06745445593303791]
+std_accs [0.0326295434535049]
+
+communication 84 :
+Edge 0 :
+train_loss [70.31834077435722]
+test_acc [0.0275]
+std_accs [0.02416903640514469]
+
+communication 84 :
+Edge 1 :
+train_loss [66.70946153322856]
+test_acc [0.032402791625124626]
+std_accs [0.011869543114561319]
+
+communication 84 :
+Edge 2 :
+train_loss [75.5219854701649]
+test_acc [0.04173441734417344]
+std_accs [0.022521713916694504]
+
+communication 84 :
+Edge 3 :
+train_loss [64.11374230439816]
+test_acc [0.06646971935007386]
+std_accs [0.03190987104851934]
+
+communication 85 :
+Edge 0 :
+train_loss [70.19389468181872]
+test_acc [0.028]
+std_accs [0.02636460858706718]
+
+communication 85 :
+Edge 1 :
+train_loss [64.30601890246074]
+test_acc [0.03339980059820538]
+std_accs [0.010235243705259345]
+
+communication 85 :
+Edge 2 :
+train_loss [81.02078373995694]
+test_acc [0.03739837398373984]
+std_accs [0.02199498357495328]
+
+communication 85 :
+Edge 3 :
+train_loss [64.30578651695315]
+test_acc [0.07090103397341212]
+std_accs [0.030435380564560757]
+
+communication 86 :
+Edge 0 :
+train_loss [66.1331594729144]
+test_acc [0.027]
+std_accs [0.023850276375202217]
+
+communication 86 :
+Edge 1 :
+train_loss [60.82246319293976]
+test_acc [0.03090727816550349]
+std_accs [0.011517960982475761]
+
+communication 86 :
+Edge 2 :
+train_loss [84.73839674862948]
+test_acc [0.03956639566395664]
+std_accs [0.021304023542028563]
+
+communication 86 :
+Edge 3 :
+train_loss [64.29386677577035]
+test_acc [0.06646971935007386]
+std_accs [0.03155701296580487]
+
+communication 87 :
+Edge 0 :
+train_loss [70.11444345471048]
+test_acc [0.0295]
+std_accs [0.0255899349424528]
+
+communication 87 :
+Edge 1 :
+train_loss [65.95946930408478]
+test_acc [0.032402791625124626]
+std_accs [0.013614453286224928]
+
+communication 87 :
+Edge 2 :
+train_loss [83.14947036743165]
+test_acc [0.04010840108401084]
+std_accs [0.020565225505911746]
+
+communication 87 :
+Edge 3 :
+train_loss [60.87368116229527]
+test_acc [0.06696208764155588]
+std_accs [0.03090693039119269]
+
+communication 88 :
+Edge 0 :
+train_loss [68.6212536701605]
+test_acc [0.0305]
+std_accs [0.026810518551439736]
+
+communication 88 :
+Edge 1 :
+train_loss [64.20846784273783]
+test_acc [0.03389830508474576]
+std_accs [0.012690906915974765]
+
+communication 88 :
+Edge 2 :
+train_loss [78.13217198458585]
+test_acc [0.04227642276422764]
+std_accs [0.023107091537243628]
+
+communication 88 :
+Edge 3 :
+train_loss [62.80739916293979]
+test_acc [0.07040866568193008]
+std_accs [0.03346872826470169]
+
+communication 89 :
+Edge 0 :
+train_loss [67.2545504625918]
+test_acc [0.033]
+std_accs [0.021569928807513045]
+
+communication 89 :
+Edge 1 :
+train_loss [68.80350438435872]
+test_acc [0.03290129611166501]
+std_accs [0.012704622789751319]
+
+communication 89 :
+Edge 2 :
+train_loss [76.68941982962869]
+test_acc [0.04173441734417344]
+std_accs [0.02411694836963189]
+
+communication 89 :
+Edge 3 :
+train_loss [61.144018716827844]
+test_acc [0.07139340226489414]
+std_accs [0.03331312924100536]
+
+communication 90 :
+Edge 0 :
+train_loss [68.29720892019607]
+test_acc [0.0305]
+std_accs [0.023658473059693024]
+
+communication 90 :
+Edge 1 :
+train_loss [65.77369318803152]
+test_acc [0.031904287138584245]
+std_accs [0.014098711570055475]
+
+communication 90 :
+Edge 2 :
+train_loss [81.71465374513106]
+test_acc [0.04227642276422764]
+std_accs [0.022286020545726783]
+
+communication 90 :
+Edge 3 :
+train_loss [58.72538659678652]
+test_acc [0.07434761201378631]
+std_accs [0.03250229709140475]
+
+communication 91 :
+Edge 0 :
+train_loss [69.93589334152452]
+test_acc [0.0335]
+std_accs [0.022184295388601914]
+
+communication 91 :
+Edge 1 :
+train_loss [69.34332578500111]
+test_acc [0.03040877367896311]
+std_accs [0.011335493464671782]
+
+communication 91 :
+Edge 2 :
+train_loss [86.32999200300736]
+test_acc [0.04010840108401084]
+std_accs [0.02300913708857974]
+
+communication 91 :
+Edge 3 :
+train_loss [59.51907813136621]
+test_acc [0.07090103397341212]
+std_accs [0.034380285508089685]
+
+communication 92 :
+Edge 0 :
+train_loss [70.077417581325]
+test_acc [0.0335]
+std_accs [0.023202540110610934]
+
+communication 92 :
+Edge 1 :
+train_loss [66.41933069229125]
+test_acc [0.031904287138584245]
+std_accs [0.011210849605419586]
+
+communication 92 :
+Edge 2 :
+train_loss [80.00034933957187]
+test_acc [0.041192411924119245]
+std_accs [0.023905923245749888]
+
+communication 92 :
+Edge 3 :
+train_loss [53.121439989551874]
+test_acc [0.06942392909896603]
+std_accs [0.032933340462421794]
+
+communication 93 :
+Edge 0 :
+train_loss [69.0471986134847]
+test_acc [0.0275]
+std_accs [0.025489959917502497]
+
+communication 93 :
+Edge 1 :
+train_loss [64.03303785483043]
+test_acc [0.03090727816550349]
+std_accs [0.010209577514057159]
+
+communication 93 :
+Edge 2 :
+train_loss [75.82347998012196]
+test_acc [0.041192411924119245]
+std_accs [0.024512998992356955]
+
+communication 93 :
+Edge 3 :
+train_loss [57.49362500770481]
+test_acc [0.06843919251600197]
+std_accs [0.03463174197489335]
+
+communication 94 :
+Edge 0 :
+train_loss [71.70793517350751]
+test_acc [0.029]
+std_accs [0.026741345758330513]
+
+communication 94 :
+Edge 1 :
+train_loss [64.01781765143076]
+test_acc [0.03389830508474576]
+std_accs [0.012837909678829586]
+
+communication 94 :
+Edge 2 :
+train_loss [78.06166230635209]
+test_acc [0.04065040650406504]
+std_accs [0.024154447298892354]
+
+communication 94 :
+Edge 3 :
+train_loss [59.0742958554326]
+test_acc [0.068931560807484]
+std_accs [0.03306878448285402]
+
+communication 95 :
+Edge 0 :
+train_loss [74.86300213971928]
+test_acc [0.0295]
+std_accs [0.022509489729895513]
+
+communication 95 :
+Edge 1 :
+train_loss [60.82988408883413]
+test_acc [0.036390827517447655]
+std_accs [0.01644957708739007]
+
+communication 95 :
+Edge 2 :
+train_loss [81.43652447093616]
+test_acc [0.037940379403794036]
+std_accs [0.020880679824408537]
+
+communication 95 :
+Edge 3 :
+train_loss [60.69125059291205]
+test_acc [0.06597735105859183]
+std_accs [0.02934465232673895]
+
+communication 96 :
+Edge 0 :
+train_loss [71.45776157283304]
+test_acc [0.0295]
+std_accs [0.023184257302324377]
+
+communication 96 :
+Edge 1 :
+train_loss [59.50224392573039]
+test_acc [0.03040877367896311]
+std_accs [0.013435632843595741]
+
+communication 96 :
+Edge 2 :
+train_loss [75.70624418085272]
+test_acc [0.03902439024390244]
+std_accs [0.018093051797481184]
+
+communication 96 :
+Edge 3 :
+train_loss [59.15457611382499]
+test_acc [0.06597735105859183]
+std_accs [0.02854024853784458]
+
+communication 97 :
+Edge 0 :
+train_loss [71.80251664811843]
+test_acc [0.03]
+std_accs [0.02291985688469344]
+
+communication 97 :
+Edge 1 :
+train_loss [53.79202329158783]
+test_acc [0.03389830508474576]
+std_accs [0.016785805091869156]
+
+communication 97 :
+Edge 2 :
+train_loss [81.94603515971791]
+test_acc [0.03956639566395664]
+std_accs [0.018755723395414436]
+
+communication 97 :
+Edge 3 :
+train_loss [57.44275785395891]
+test_acc [0.06400787789266371]
+std_accs [0.029875111057973667]
+
+communication 98 :
+Edge 0 :
+train_loss [71.98379126186147]
+test_acc [0.0315]
+std_accs [0.025695692042854813]
+
+communication 98 :
+Edge 1 :
+train_loss [56.8017355632782]
+test_acc [0.0353938185443669]
+std_accs [0.016825316341898672]
+
+communication 98 :
+Edge 2 :
+train_loss [84.35333249005404]
+test_acc [0.041192411924119245]
+std_accs [0.01951194125115703]
+
+communication 98 :
+Edge 3 :
+train_loss [61.8509903009091]
+test_acc [0.0620384047267356]
+std_accs [0.02798060486006907]
+
+communication 99 :
+Edge 0 :
+train_loss [73.50499101220264]
+test_acc [0.029]
+std_accs [0.025763095181399763]
+
+communication 99 :
+Edge 1 :
+train_loss [59.486579575538634]
+test_acc [0.03589232303090728]
+std_accs [0.017266830563189856]
+
+communication 99 :
+Edge 2 :
+train_loss [93.24990234375]
+test_acc [0.03956639566395664]
+std_accs [0.01749750796394208]
+
+communication 99 :
+Edge 3 :
+train_loss [65.48098696044093]
+test_acc [0.06253077301821763]
+std_accs [0.02951212101233152]
+

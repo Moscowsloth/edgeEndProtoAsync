@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="48cd65fe-e2bc-429b-aae5-911dc3032bed" name="autodl">
+        <fileTransfer accessType="SFTP" host="connect.westb.seetacloud.com" port="25125" sshConfigId="fe4b6941-feec-4da9-95a4-7f9be1c352eb" sshConfig="root@connect.westb.seetacloud.com:25125 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -5,7 +5,7 @@ import numpy as np
 class EdgeBase(object):
     def __init__(self, index, dids, args, model):
         self.index = index  # 边缘的id
-        self.dids = dids    # 范围内端的id
+        self.dids = dids    # 范围内端的id----deviceID的意思
         self.ends_registration = []  # 当前轮次参与的客户端对象
         self.model = model  # 边缘模型 
         self.end_global_model = None  # 聚合后的端模型

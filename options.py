@@ -22,7 +22,8 @@ def args_parser(parser):
     # FedAgg参数
     parser.add_argument("--T_agg", nargs="*", type=float, default=3.0, help="T_agg")
     parser.add_argument("--edge_t", type=int, default=5, help="edge updating trade")
-
+    # 关于分簇的参数
+    parser.add_argument("--cluster", type=bool, default=False, help="whether to use clustering or not")
     args = parser.parse_args()
     return args
 

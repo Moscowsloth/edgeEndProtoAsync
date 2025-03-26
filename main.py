@@ -4,6 +4,8 @@ import multiprocessing
 import torch, torchvision
 import numpy as np
 import torch.nn as nn
+
+from cluster import createClusters
 from options import args_parser
 from allModel.model import FedAvgCNN, BaseHeadSplit, Net
 from allModel.resnet import resnet8, resnet10, resnet18, resnet34, resnet50
@@ -71,6 +73,7 @@ def run(args):
     backup = copy.deepcopy(args.end_model)
     # ends存储所有的端，i是客户端
     ends = []
+    # 初始化并存储客户端
     for i in range(args.num_ends):
         if args.algorithm == "FedProAgg":
             ends.append(EndProAgg(i, args, copy.deepcopy(args.end_model), 0))
@@ -97,6 +100,10 @@ def run(args):
             ends.append(EndAsyncFLAFO(i, args, copy.deepcopy(args.end_model), random.randint(0, 4)))
         else:
             raise ValueError(f"Algorithm {args.algorithm} not implemented.")
+
+    if args.cluster:    # 测试，看看分簇能不能跑起来
+        createClusters(ends, args.num_edges)
+        return
 
     # edges初始化所有边缘，e是边缘
     edges = []
@@ -323,7 +330,7 @@ if __name__ == "__main__":
         print("\ncuda is not avaiable.\n")
         args.device = "cpu"
 
-    multiprocessing.set_start_method('forkserver')
+    # multiprocessing.set_start_method('forkserver')
 
     print("="*50)
     print("Data directory: {}".format(args.data_dir))
@@ -345,6 +352,9 @@ if __name__ == "__main__":
     print("Number of edges: {}".format(args.num_edges))
     print("Seed: {}".format(args.seed))
     print("T_agg: {}".format(args.T_agg))
+
+    print("Clustering: {}".format(args.cluster))
+
     print("="*50)
 
     run(args)

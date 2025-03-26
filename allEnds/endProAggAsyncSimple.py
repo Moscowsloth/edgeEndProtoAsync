@@ -61,7 +61,7 @@ class EndProAggAsyncSimple(EndBase):
                 # 添加局部原型
                 for i, y in enumerate(label):
                     y_c = y.item()
-                    local_protos[y_c].append(rep[i, :].detach().data)
+                    local_protos[y_c].append(rep[i, :].detach().data)   # 注意，proto对数据类型就是tensor
 
                 self.optimizer.zero_grad()
                 loss.backward()
@@ -81,6 +81,47 @@ class EndProAggAsyncSimple(EndBase):
         # warm-up测试使用：
         self.delay_comp_total += self.delay_comp
         # print(self.delay_comp_total)
+
+    def trainForClustering(self):   # 为了分簇做预训练
+        self.model.train()
+        # 局部原型
+        local_protos = defaultdict(list)
+        # local_protos_for_clustering = defaultdict(list)
+
+        for epoch in range(self.local_epoch):
+            for i, (img, label) in enumerate(self.train_loader):
+                img = img.to(self.device)
+                label = label.to(self.device)
+
+                rep = self.model.base(img)
+                # head是原始的fc层
+                output = self.model.head(rep)
+                loss = self.loss(output, label)
+
+                # 全局原型和本地原型的损失
+                # 对“分簇”阶段来说，这里的global原型不知道有没有影响？该以什么准则去计算loss？
+                if self.global_protos is not None:
+                    proto_new = copy.deepcopy(rep.detach())
+                    for i, y in enumerate(label):
+                        y_c = y.item()
+                        if type(self.global_protos[y_c]) != type([]):
+                            proto_new[i, :] = self.global_protos[y_c].data
+                    loss += self.loss_mse(proto_new, rep) * self.lamda
+
+                # 添加局部原型
+                for i, y in enumerate(label):
+                    y_c = y.item()
+                    local_protos[y_c].append(rep[i, :].detach().data)
+
+                self.optimizer.zero_grad()
+                loss.backward()
+                self.optimizer.step()
+                self.scheduler.step()
+        # 获得自己的局部原型
+        local_protos_for_clustering = defaultdict(list)
+        local_protos_for_clustering = agg_func(local_protos)
+        return local_protos_for_clustering  # 这个返回的proto是一个list，是很多个标签的proto
+
 
     def end_id(self):
         return self.index

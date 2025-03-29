@@ -297,7 +297,6 @@ def run(args):
             for j in edges[i].dids:
                 edges[i].end_register(ends[j])
                 ends[j].parent = edges[i]
-                # 设定边缘的邻居关系
         # 设定边缘的邻居关系
         for i in range(args.num_edges):
             edges[i].neigh_registration = edges[0:i] + edges[i + 1:]

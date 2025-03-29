@@ -40,9 +40,11 @@ def createClusters(ends, n_clusters):     # 需要先训练一下得出一个pro
 
     protos_for_clustering_normalized = normalize(protos_for_clustering) # 首先需要正则化
     kmeans = KMeans(n_clusters=n_clusters)
-    clusters = kmeans.fit_predict(protos_for_clustering_normalized)
+    clusters = kmeans.fit_predict(protos_for_clustering_normalized) # clusters数据结构是array，按顺序存放不同的cluster索引
 
     for i, cluster in enumerate(clusters):
         print(f"客户端 {i+1} 属于类别 {cluster}")
+
+    return clusters
 
 

@@ -98,6 +98,9 @@ def run(args):
             ends.append(EndHierFLAsync(i, args, copy.deepcopy(args.end_model), random.randint(0, 4)))
         elif args.algorithm == "AFO":
             ends.append(EndAsyncFLAFO(i, args, copy.deepcopy(args.end_model), random.randint(0, 4)))
+        elif args.algorithm == "AsyncProSimpleClustering":
+            ends.append(EndProAggAsyncSimple(i, args, copy.deepcopy(args.end_model), random.randint(0, 4)))
+            # 最后给出了delay的接口
         else:
             raise ValueError(f"Algorithm {args.algorithm} not implemented.")
 
@@ -109,7 +112,16 @@ def run(args):
     edges = []
     dids = np.arange(args.num_ends)
     clients_per_edge = int(args.num_ends/args.num_edges)
-    edge_dids = [dids[i:i+clients_per_edge] for i in range(0,len(dids),clients_per_edge)]
+    edge_dids = [dids[i:i+clients_per_edge] for i in range(0,len(dids),clients_per_edge)]   # 这里为所有的边缘都预设了链接都端设备数量。
+
+    edge_dids_clustering = [[], [], [], []]
+    print("Clustering")
+    clusters = createClusters(ends, args.num_edges) # 在这里直接分簇 cluster中存放每个端设备的簇id 直接用于边缘id即可
+    print(clusters)
+    for i in range(len(clusters)):
+        edge_dids_clustering[clusters[i]].append(i) # 存储对应的end编号
+
+
 
     if args.algorithm == "FedProAgg":
         # 设定边缘和端的所属关系
@@ -257,6 +269,8 @@ def run(args):
             for j in edges[i].dids:
                 edges[i].end_register(ends[j])
                 ends[j].parent = edges[i]
+        # clusters = createClusters(ends, args.num_edges) # 先分簇
+
         # 设定边缘的邻居关系
         for i in range(args.num_edges):
             edges[i].neigh_registration = edges[0:i] + edges[i+1:]
@@ -272,12 +286,44 @@ def run(args):
             print(f"\n-------------Round number: {i}-------------")
             for edge in edges:
                 edge.asyncTrain(i, file, training_time_total)
+            print("Total training time is: " + str(training_time_total) + "!!!")
+
+        file.close()
+
+    elif args.algorithm == "AsyncProSimpleClustering":  # 具有分簇设计的异步算法
+        for i in range(args.num_edges):
+            edges.append(EdgeProAggAsyncSimple(i, edge_dids_clustering[i], args, copy.deepcopy(args.edge_model), 12, 2))
+            # 把端加入到每个边的self_ends里，指定端对应的边
+            for j in edges[i].dids:
+                edges[i].end_register(ends[j])
+                ends[j].parent = edges[i]
+                # 设定边缘的邻居关系
+        # 设定边缘的邻居关系
+        for i in range(args.num_edges):
+            edges[i].neigh_registration = edges[0:i] + edges[i + 1:]
+        # 设定聚合边缘
+        edges[len(edges) - 1].aggregated_edge = True
+        file = open(args.dataset + "_" + args.algorithm + "_results.txt", "w")
+
+        # test 打印每个边缘对应的端设备
+        for i in range(args.num_edges):
+            print(edges[i].dids)
+
+        # 训练总时间
+        training_time_total = 0
+        # 通信num_comm次
+        for i in range(args.num_comm):
+            # 每个边缘做训练
+            print(f"\n-------------Round number: {i}-------------")
+            for edge in edges:
+                edge.asyncTrain(i, file, training_time_total)
                 # todo 移除了args，添加了训练时间，不知道这样行不行
             print("Total training time is: " + str(training_time_total) + "!!!")
 
         file.close()
 
-    elif args.algorithm == "AsyncProAgg":
+
+    elif args.algorithm == "AsyncProAgg":   # 【失败的】多线程模拟异步
         for i in range(args.num_edges):
             edges.append(EdgeProAggAsync(i, edge_dids[i], args, copy.deepcopy(args.edge_model), edgeepoch))
             # 把端加入到每个边的self_ends里，指定端对应的边

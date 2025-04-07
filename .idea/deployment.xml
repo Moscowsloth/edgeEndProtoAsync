@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="root@connect.westb.seetacloud.com:48858 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@connect.westc.gpuhub.com:34446 password (4)" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="root@connect.westb.seetacloud.com:25125 password">
         <serverdata>
@@ -24,6 +24,34 @@
         </serverdata>
       </paths>
       <paths name="root@connect.westb.seetacloud.com:48858 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/protoAsync/Edge-end-proto-learning" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westb.seetacloud.com:48858 password (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/protoAsync/Edge-end-proto-learning" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westc.gpuhub.com:34446 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_367" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westc.gpuhub.com:34446 password (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/protoAsync/Edge-end-proto-learning" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westc.gpuhub.com:34446 password (4)">
         <serverdata>
           <mappings>
             <mapping deploy="/root/protoAsync/Edge-end-proto-learning" local="$PROJECT_DIR$" />

@@ -5,6 +5,8 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import normalize
 
+import matplotlib.pyplot as plt
+
 def cosine_similarity(a, b):    # 计算余弦相似度
     return torch.dot(a, b) / (torch.norm(a) * torch.norm(b))
 def protos2featureVector(protos):    # 将存放proto的defaultlist转化为numpy数组方便分簇
@@ -41,6 +43,22 @@ def createClusters(ends, n_clusters):     # 需要先训练一下得出一个pro
     protos_for_clustering_normalized = normalize(protos_for_clustering) # 首先需要正则化
     kmeans = KMeans(n_clusters=n_clusters)
     clusters = kmeans.fit_predict(protos_for_clustering_normalized) # clusters数据结构是array，按顺序存放不同的cluster索引
+
+    # # test-查看不同簇数目的影响
+    # K_range = range(2, 11)
+    # sse = []
+    # for k in K_range:
+    #     kmeans = KMeans(n_clusters=k, random_state=0)
+    #     kmeans.fit(protos_for_clustering_normalized)
+    #     sse.append(kmeans.inertia_)
+    #
+    # plt.figure(figsize=(10, 6))
+    # plt.plot(K_range, sse, marker='o')
+    # plt.title('Elbow Method for K Selection', fontsize=16)
+    # plt.xlabel('Number of Clusters (K)', fontsize=14)
+    # plt.ylabel('Sum of Squared Errors (SSE)', fontsize=14)
+    # plt.grid()
+    # plt.show()
 
     for i, cluster in enumerate(clusters):
         print(f"客户端 {i+1} 属于类别 {cluster}")

@@ -30,6 +30,8 @@ from allEnds.endAsyncFL_AFO import EndAsyncFLAFO
 from allEdges.edgeProAggAsyncSimple import EdgeProAggAsyncSimple
 from allEnds.endProAggAsyncSimple import EndProAggAsyncSimple
 
+import matplotlib.pyplot as plt
+
 from multiprocessing import Pool, Manager
 import sh
 
@@ -317,6 +319,7 @@ def run(args):
             for edge in edges:
                 edge.asyncTrain(i, file, training_time_total)
                 # todo 移除了args，添加了训练时间，不知道这样行不行
+                print(edge.edge_protos)
             print("Total training time is: " + str(training_time_total) + "!!!")
 
         file.close()
